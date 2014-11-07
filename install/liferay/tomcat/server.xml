@@ -48,8 +48,8 @@
     <Resource name="jdbc/LiferayPool" auth="Container"
               type="javax.sql.DataSource"
               maxActive="100" maxIdle="30" maxWait="100000"
-              username="ccl_md" password="3ql8dZodCVfcXSDmsEcI" driverClassName="org.postgresql.Driver"
-              url="jdbc:postgresql://localhost:5432/ccl_md"/>
+              username="asociatii_md" password="3ql8dZodCVfcXSDmsEcI" driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/asociatii_md"/>
 
 
     <Resource name="mail/MailSession"
@@ -59,8 +59,8 @@
        mail.smtp.host="smtp.gmail.com"
        mail.smtp.port="465"
        mail.smtp.auth="true"
-       mail.smtp.user="service.ccl.md@gmail.com"
-       password="VNuWdE6jn1zwBKVR6M6k"
+       mail.smtp.user="service.asociatii.md@gmail.com"
+       password="3Sp6aUrGZzMYFpqAzRj7"
        mail.smtp.starttls.enable="true"
        mail.smtp.socketFactory.class="javax.net.ssl.SSLSocketFactory"
     />
