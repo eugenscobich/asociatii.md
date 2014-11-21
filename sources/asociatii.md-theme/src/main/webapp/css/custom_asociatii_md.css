@@ -42,3 +42,7 @@ $dockbarGradientEnd: #1273C7;
 	}
 }
 
+.portlet-image-gallery-display-carousel-w500 .portlet-body {
+	height: 500px;
+}
+
