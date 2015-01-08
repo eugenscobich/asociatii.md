@@ -40,7 +40,7 @@
 			</plugin>
 		</plugins>
 
-                <directory>${target.directory}</directory>
+                <!--<directory>${target.directory}</directory>-->
 	</build>
 
 </project>

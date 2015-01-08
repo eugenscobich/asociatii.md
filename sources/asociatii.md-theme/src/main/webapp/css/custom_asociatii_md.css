@@ -46,3 +46,7 @@ $dockbarGradientEnd: #1273C7;
 	height: 500px;
 }
 
+.entry-footer {
+    overflow: hidden;
+}
+
