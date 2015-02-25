@@ -1,0 +1,52 @@
+@import "compass";
+@import "mixins";
+
+$dockbarGradientStart: #118ADE;
+$dockbarGradientEnd: #1273C7;
+
+/* ---------- Base styles ---------- */
+
+.aui {
+	.site-title {
+		.site-name {
+			color: $dockbarGradientEnd;
+			padding-top: 30px;
+		}
+		
+		.site-description {
+			color: $dockbarGradientEnd;
+			font-size: 0.45em;
+    		padding-left: 2px;
+		}
+		
+		.logo {
+			display: block;
+			overflow: hidden;
+			
+			img {
+				float: left;
+			}
+		}
+	}
+		
+	.embedded-language-portlet {
+		float: right;
+		.portlet-boundary_82_ {
+			.portlet-borderless-container {
+				background-color: transparent;
+				padding: 0;
+				margin: 0;
+				line-height: 32px;
+			}
+		}
+	}
+}
+
+.portlet-image-gallery-display-carousel-w500 .portlet-body {
+	height: 500px;
+}
+
+.entry-footer {
+    overflow: hidden;
+}
+

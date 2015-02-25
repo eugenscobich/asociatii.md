@@ -12,6 +12,7 @@
 		<module.parent>asociatii.md</module.parent>
 		<module.portlet>asociatii.md-portlet</module.portlet>
 		<module.theme>asociatii.md-theme</module.theme>
+		<module.wedding.theme>asociatii.md-wedding-theme</module.wedding.theme>
 		<module.resource.importer>resources-importer-web</module.resource.importer>
 
                 <target.directory>${basedir}/target</target.directory>
@@ -21,6 +22,7 @@
 	<modules>
 		<module>../${module.portlet}</module>
 		<module>../${module.theme}</module>
+		<module>../${module.wedding.theme}</module>
 		<module>../${module.resource.importer}</module>
 	</modules>
 
