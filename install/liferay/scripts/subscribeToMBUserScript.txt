@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+import com.liferay.portal.kernel.exception.PortalException;
+import com.liferay.portal.kernel.exception.SystemException;
+import com.liferay.portal.kernel.util.LocaleUtil;
+import com.liferay.portal.model.Address;
+import com.liferay.portal.model.EmailAddress;
+import com.liferay.portal.model.Phone;
+import com.liferay.portal.model.User;
+import com.liferay.portal.model.Website;
+import com.liferay.portal.service.AddressLocalServiceUtil;
+import com.liferay.portal.service.CompanyLocalServiceUtil;
+import com.liferay.portal.service.PhoneLocalServiceUtil;
+import com.liferay.portal.service.ServiceContext;
+import com.liferay.portal.service.UserServiceUtil;
+import com.liferay.portlet.announcements.model.AnnouncementsDelivery;
+import com.liferay.portlet.announcements.model.AnnouncementsEntryConstants;
+import com.liferay.portlet.announcements.service.persistence.AnnouncementsDeliveryUtil;
+import com.liferay.portlet.blogs.service.BlogsEntryLocalServiceUtil;
+import com.liferay.portal.service.UserLocalServiceUtil;
+import com.liferay.portlet.messageboards.service.MBCategoryLocalServiceUtil;
+
+List<User> users = UserLocalServiceUtil.getGroupUsers(10813, 0, 200);
+for (User user : users) {
+	MBCategoryLocalServiceUtil.subscribeCategory(user.getUserId(), 10813, 0);
+}
+out.println(users.size());
