@@ -1,0 +1,139 @@
+import java.util.ArrayList;
+import java.util.List;
+import com.liferay.portal.kernel.exception.PortalException;
+import com.liferay.portal.kernel.exception.SystemException;
+import com.liferay.portal.kernel.util.LocaleUtil;
+import com.liferay.portal.model.Address;
+import com.liferay.portal.model.EmailAddress;
+import com.liferay.portal.model.Phone;
+import com.liferay.portal.model.User;
+import com.liferay.portal.model.Website;
+import com.liferay.portal.service.AddressLocalServiceUtil;
+import com.liferay.portal.service.CompanyLocalServiceUtil;
+import com.liferay.portal.service.PhoneLocalServiceUtil;
+import com.liferay.portal.service.ServiceContext;
+import com.liferay.portal.service.UserServiceUtil;
+import com.liferay.portlet.announcements.model.AnnouncementsDelivery;
+import com.liferay.portlet.announcements.model.AnnouncementsEntryConstants;
+import com.liferay.portlet.announcements.service.persistence.AnnouncementsDeliveryUtil;
+import com.liferay.portlet.blogs.service.BlogsEntryLocalServiceUtil;
+
+int id = 11;
+String firstName = "Larisa";
+String lastName = "Adam";
+String number = "60340968";
+
+String screenName = "macilor11." + id;
+String jobTitle = String.format("macilor11.%03d", id);
+String street1 = "Macilor 11 ap. " + id;
+
+long companyId = CompanyLocalServiceUtil.getCompanyByVirtualHost("asociatii.md").getCompanyId();
+boolean autoPassword = false;
+String password1 = screenName;
+String password2 = screenName;
+String reminderQueryQuestion = "";
+String reminderQueryAnswer = "";
+boolean autoScreenName = false;
+String emailAddress = "";
+long facebookId = 0;
+String openId = "";
+String languageId = "ro_RO";
+String timeZoneId = "Europe/Chisinau";
+String greeting = "Bine ati venit " + firstName + " " + lastName + "!";
+String middleName = "";
+int prefixId = 0;
+int suffixId = 0;
+boolean male = true;
+int birthdayMonth = 0;
+int birthdayDay = 1;
+int birthdayYear = 1970;
+String comments = "";
+String smsSn = "";
+String aimSn = "";
+String facebookSn = "";
+String icqSn = "";
+String jabberSn = "";
+String msnSn = "";
+String mySpaceSn = "";
+String skypeSn = "";
+String twitterSn = "";
+String ymSn = "";
+long[] groupIds = new long[1];
+groupIds[0] = 10813;
+long[] organizationIds = new long[0];
+long[] roleIds = new long[0];
+long[] userGroupIds = new long[0];
+
+
+List<Address> addresses = new ArrayList<Address>();
+long addressId = 0;
+String street2 = "";
+String street3 = "";
+String city = "Chisinau";
+String zip = "MD-2048";
+long countryId = 146;
+long regionId = 0;
+int typeId = 11002;
+boolean mailing = false;
+boolean primary = true;
+Address address = AddressLocalServiceUtil.createAddress(addressId);
+address.setStreet1(street1);
+address.setStreet2(street2);
+address.setStreet3(street3);
+address.setCity(city);
+address.setZip(zip);
+address.setRegionId(regionId);
+address.setCountryId(countryId);
+address.setTypeId(typeId);
+address.setMailing(mailing);
+address.setPrimary(primary);
+addresses.add(address);
+
+List<EmailAddress> emailAddresses = new ArrayList<EmailAddress>();
+List<Phone> phones = new ArrayList<Phone>();
+
+long phoneId = 0;
+String extension = "373";
+int p_typeId = 11011;
+boolean p_primary = true;
+
+Phone phone = PhoneLocalServiceUtil.createPhone(phoneId);
+phone.setNumber(number);
+phone.setExtension(extension);
+phone.setTypeId(p_typeId);
+phone.setPrimary(p_primary);
+phones.add(phone);
+
+List<Website> websites = new ArrayList<Website>();
+List<AnnouncementsDelivery> announcementsDeliveries = new ArrayList<AnnouncementsDelivery>();
+
+for (String type : AnnouncementsEntryConstants.TYPES) {
+	boolean email = true;
+	boolean sms = true;
+	boolean website = true;
+	
+	
+	AnnouncementsDelivery announcementsDelivery = AnnouncementsDeliveryUtil.create(0);
+	announcementsDelivery.setType(type);
+	announcementsDelivery.setEmail(email);
+	announcementsDelivery.setSms(sms);
+	announcementsDelivery.setWebsite(website);
+	announcementsDeliveries.add(announcementsDelivery);
+}
+
+
+boolean sendEmail = true;
+ServiceContext serviceContext = new ServiceContext(); 
+
+User user = UserServiceUtil.addUser(
+	companyId, autoPassword, password1, password2,
+	autoScreenName, screenName, emailAddress, facebookId, openId,
+	LocaleUtil.getDefault(), firstName, middleName, lastName, prefixId,
+	suffixId, male, birthdayMonth, birthdayDay, birthdayYear, jobTitle,
+	groupIds, organizationIds, roleIds, userGroupIds, addresses,
+	emailAddresses, phones, websites, announcementsDeliveries,
+	sendEmail, serviceContext);
+
+BlogsEntryLocalServiceUtil.subscribe(user.getUserId(), 10813);
+
+out.println("Success");
