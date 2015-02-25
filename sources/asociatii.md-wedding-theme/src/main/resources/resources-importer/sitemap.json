@@ -1,0 +1,22 @@
+{
+  "layouts": [
+    {
+      "columns": [
+        [
+          {
+            "portletId": 56,
+            "portletPreferences": {
+              "articleId": "Custom Menu.html",
+              "groupId": "${groupId}",
+              "portletSetupShowBorders": false
+            }
+          }
+        ]
+      ],
+      "friendlyURL": "/home",
+      "name": "Home",
+      "title": "Home"
+    }
+  ],
+  "layoutTemplateId": "1_column"
+}
