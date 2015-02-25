@@ -3,14 +3,9 @@
     {
       "columns": [
         [
-          {
-            "portletId": 56,
-            "portletPreferences": {
-              "articleId": "Custom Menu.html",
-              "groupId": "${groupId}",
-              "portletSetupShowBorders": false
-            }
-          }
+        	[
+        		"Custom Menu.html"
+        	]
         ]
       ],
       "friendlyURL": "/home",
