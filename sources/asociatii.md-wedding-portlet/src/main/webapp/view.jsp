@@ -18,7 +18,7 @@
 
 <portlet:defineObjects />
 
-<script>try{Typekit.load();}catch(e){console.log(e);}</script>
+
 
 <header id="nav">
 	<nav id="navigation" class="container-fluid">
