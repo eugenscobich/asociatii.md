@@ -21,7 +21,7 @@
 
 
 <header id="nav">
-	<nav id="navigation" class="container-fluid-nav">
+	<nav id="navigation" class="container-fluid">
 		<ul class="row">
 			<li class="nav-col nav-col-1"><a class="scroll" href="index.html#bride-and-groom">Bride &amp; Groom</a></li>
 			<li class="nav-col nav-col-2"><a class="scroll" href="index.html#wedding-party">Wedding Party</a></li>
