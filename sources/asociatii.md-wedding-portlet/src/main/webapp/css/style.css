@@ -138,8 +138,7 @@ body {
 	height: 100px;
 }
 
-.alina-si-eugen-wedding-portlet section:not (#intro ):not (#lodging ):not
-	(#bride-and-groom ):not (#when-where ) {
+.alina-si-eugen-wedding-portlet section:not(#intro):not(#lodging):not(#bride-and-groom):not(#when-where) {
 	padding: 7% 0 10% 0;
 }
 
@@ -1227,7 +1226,7 @@ body {
 	}
 
 	/* Wedding Party */
-	.alina-si-eugen-wedding-portlet #wedding-party .row:not (#bearers ) >div:first-child
+	.alina-si-eugen-wedding-portlet #wedding-party .row:not(#bearers)>div:first-child
 		{
 		margin-bottom: 10%;
 	}
