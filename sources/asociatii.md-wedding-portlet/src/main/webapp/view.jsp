@@ -23,12 +23,12 @@
 <header id="nav">
 	<nav id="navigation" class="container-fluid">
 		<ul class="row">
-			<li class="nav-col nav-col-1"><a class="scroll" href="index.html#bride-and-groom">Bride &amp; Groom</a></li>
-			<li class="nav-col nav-col-2"><a class="scroll" href="index.html#wedding-party">Wedding Party</a></li>
-			<li class="nav-col nav-col-3"><a class="scroll" href="index.html#when-where">When &amp; Where</a></li>
-			<li class="nav-col nav-col-4"><a class="scroll" href="index.html#lodging">Lodgings</a></li>
-			<li class="nav-col nav-col-5"><a class="scroll" href="index.html#registries">Registries</a></li>
-			<li class="nav-col nav-col-6"><a class="scroll" href="index.html#rsvp">RSVP</a></li>
+			<li class="nav-col nav-col-1"><a class="scroll" href="#bride-and-groom">Bride &amp; Groom</a></li>
+			<li class="nav-col nav-col-2"><a class="scroll" href="#wedding-party">Wedding Party</a></li>
+			<li class="nav-col nav-col-3"><a class="scroll" href="#when-where">When &amp; Where</a></li>
+			<li class="nav-col nav-col-4"><a class="scroll" href="#lodging">Lodgings</a></li>
+			<li class="nav-col nav-col-5"><a class="scroll" href="#registries">Registries</a></li>
+			<li class="nav-col nav-col-6"><a class="scroll" href="#rsvp">RSVP</a></li>
 		</ul>
 	</nav>
 	<div id="nav-button"><span id="nav-icon"></span></div>
