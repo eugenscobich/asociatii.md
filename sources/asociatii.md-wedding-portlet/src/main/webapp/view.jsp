@@ -13,8 +13,8 @@
  * details.
  */
 %>
-
-<%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
+<%@ taglib prefix="portlet" uri="http://java.sun.com/portlet_2_0"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <portlet:defineObjects />
 
@@ -35,16 +35,10 @@
 </header>
 
 <div id="page-wrapper">
-	<div class="award" id="opl">
-		<a href="https://onepagelove.com/matt-mallory" alt="MattandMallory.com featured on One Page Love!" target="_blank">
-			<img src="https://s3.amazonaws.com/onepagelove/one-page-love-award-right.png" />
-		</a>
-	</div>
-
 	<section id="intro">
 		<div id="banner">
 			<div class="svg-wrapper">
-				<object data="images/m+m_logo.svg" type="image/svg+xml"></object>
+				<object data="<c:url value="/images/m+m_logo.svg"/>" type="image/svg+xml"></object>
 			</div>
 			<h1>Mallory + Matthew</h1>
 			<h3>Huntsville, Alabama</h3>
@@ -90,12 +84,12 @@
   </section> 
 
   <div class="behind_image">
-    <img id="photo1" class="par-image-wrapper" src="images/engagement2.jpg" />
+    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/engagement2.jpg"/>" />
   </div>
 
   <section id="wedding-party">
     <h2 class="ribbon shorten">
-      <object data="images/banners/wedding-party.svg" type="image/svg+xml">
+      <object data="<c:url value="/images/banners/wedding-party.svg"/>" type="image/svg+xml">
 
       </object>
     </h2>
@@ -146,7 +140,7 @@
   <section id="when-where">
 
     <h2 class="ribbon">
-      <object data="images/banners/when-where.svg" type="image/svg+xml">
+      <object data="<c:url value="/images/banners/when-where.svg"/>" type="image/svg+xml">
 
       </object>
     </h2>
@@ -161,7 +155,7 @@
       <p><a href="https://goo.gl/maps/dhx42" target="_blank"><span class="map_icon"></span>320 Church Street&nbsp; Huntsville, Alabama</a></p>
     </div>
     <div id="roundhouse" class="svg-wrapper shorten">
-      <object data="images/roundhouse.svg" type="image/svg+xml"></object>
+      <object data="<c:url value="/images/roundhouse.svg"/>" type="image/svg+xml"></object>
     </div>
   </section>
 
@@ -169,13 +163,13 @@
     <div id="map-canvas"></div>
     <div id="lodging-details">
       <h2 class="ribbon shorten">
-        <object data="images/banners/lodging.svg" type="image/svg+xml">
+        <object data="<c:url value="/images/banners/lodging.svg"/>" type="image/svg+xml">
 
         </object>
       </h2>
 
       <div class="hotel_details" id="marker1">
-        <img src="images/marker1@2x.png" width="24" height="37" alt="">
+        <img src="<c:url value="/images/marker1@2x.png"/>" width="24" height="37" alt="">
         <h3>Embassy Suites</h3>
         <p class="address">800 Monroe St SW<br />Huntsville, AL 35801</p>
         <p class="phone">1-256-539-7373</p>
