@@ -6,6 +6,15 @@
 		<portlet-name>alina-si-eugen-wedding-portlet</portlet-name>
 		<icon>/icon.png</icon>
 		<header-portlet-css>/css/main.css</header-portlet-css>
+		<header-portlet-css>/css/bootstrap.min.css</header-portlet-css>
+		<header-portlet-css>/css/style.css</header-portlet-css>
+		<header-portlet-javascript>/js/zmb7mbs.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/modernizr.js</header-portlet-javascript>
+		<footer-portlet-javascript>http://code.jquery.com/jquery-latest.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>https://maps.googleapis.com/maps/api/js?v=3</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/lodging_gmaps.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery.lettering.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/circletype.min.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
 		<css-class-wrapper>alina-si-eugen-wedding-portlet</css-class-wrapper>
 	</portlet>
