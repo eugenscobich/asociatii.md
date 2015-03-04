@@ -1,7 +1,13 @@
-#wrapper {
+#wrapper, #content, #main-content, .portlet-layout, .portlet-column, 
+.portlet-column-content, .alina-si-eugen-wedding-portlet, .alina-si-eugen-wedding-portlet .portlet-borderless-container,
+.alina-si-eugen-wedding-portlet .portlet-body {
 	padding: 0 !important;
+	margin: 0 !important;
 	height: 100%;
 }
+
+
+
 
 .alina-si-eugen-wedding-portlet .portlet-borderless-container {
 	margin: 0 !important;
