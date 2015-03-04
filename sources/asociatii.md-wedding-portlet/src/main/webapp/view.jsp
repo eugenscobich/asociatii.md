@@ -50,7 +50,7 @@
 
   <section id="bride-and-groom">
     <h2 id="brandgr" class="ribbon shorten">
-      <object data="images/banners/bride-groom.svg" type="image/svg+xml">
+      <object data="<c:url value="/images/banners/bride-groom.svg"/>" type="image/svg+xml">
 
       </object>
     </h2>
