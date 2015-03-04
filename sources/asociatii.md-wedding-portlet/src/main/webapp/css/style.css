@@ -21,7 +21,7 @@
     font-style: normal;
 }
 
-body, html, #page-wrapper{
+body, html, #page-wrapper {
   width: 100%; height: 100%;
   font-family: "futura-pt",sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -83,7 +83,7 @@ a.button:hover{text-decoration: none;}
 
 
 /* set max width to fluid containers */
-.container-fluid{max-width: 1200px;}
+.container-fluid-nav{max-width: 1200px;}
 .vcenter {
     display: inline-block;
     vertical-align: middle;

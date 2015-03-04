@@ -1,4 +1,9 @@
+#wrapper {
+	padding: 0 !important;
+}
+
 .alina-si-eugen-wedding-portlet .portlet-borderless-container {
 	margin: 0 !important;
     padding: 0 !important;
 }
+
