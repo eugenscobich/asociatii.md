@@ -180,7 +180,7 @@
         </div>
       </div>
       <div class="hotel_details" id="marker2" style="display: none;">
-        <img src="images/marker2@2x.png" width="24" height="37" alt="">
+        <img src="<c:url value="/images/marker2@2x.png"/>" width="24" height="37" alt="">
         <h3>Spring Hill Hotel</h3>
         <p class="address">745 Constellation Place Drive SW<br />Huntsville, AL 35801<br /><br />1-256-512-0188</p> 
         <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Laughlin/Mitchell%20Wedding%20%5Ehsvsh%60LMWLMWK%7CLMWLMWQ%60109.00%60USD%60false%602/21/15%602/22/15%601/21/15&app=resvlink" target="_blank">Book a Room Online</a>        
@@ -191,12 +191,12 @@
   </section>
   
   <div class="behind_image">
-    <img id="photo2" class="par-image-wrapper" src="images/engagement4.jpg" />
+    <img id="photo2" class="par-image-wrapper" src="<c:url value="/images/engagement4.jpg"/>" />
   </div>
 
   <section id="registries">
     <h2 class="ribbon">
-      <object data="images/banners/registries.svg" type="image/svg+xml">
+      <object data="<c:url value="/images/banners/registries.svg"/>" type="image/svg+xml">
 
       </object>
     </h2>
@@ -206,7 +206,7 @@
         <div class="col-sm-6">
           <div class="svg-wrapper">
             <a href="http://m.target.com/gift-registry/giftgiver?registryId=FevAqFYQIIWK4KCnlKHLrw&registryType=WEDDING" target="_blank">
-              <object data="images/target_logo.svg" type="image/svg+xml">
+              <object data="<c:url value="/images/target_logo.svg"/>" type="image/svg+xml">
 
               </object>
             </a>
@@ -216,7 +216,7 @@
         <div class="col-sm-6">
           <div class="svg-wrapper">
             <a href="https://www.anthropologie.com/anthro/wishlist/wishlist.jsp?_DARGS=/anthro/wishlist/gift_list_search_results_vwr.jsp_A&_DAV=gl_PHL3238240633&_dynSessConf=6201208064216873050" target="_blank">
-              <object data="images/anthro_logo_2.svg" type="image/svg+xml">
+              <object data="<c:url value="/images/anthro_logo_2.svg"/>" type="image/svg+xml">
 
               </object>
             </a>
@@ -229,7 +229,7 @@
 
   <section id="rsvp">
     <h2 class="ribbon">
-      <object data="images/banners/rsvp.svg" type="image/svg+xml">
+      <object data="<c:url value="/images/banners/rsvp.svg"/>" type="image/svg+xml">
 
       </object>
     </h2>
@@ -327,7 +327,7 @@
   </section>
 
   <footer class="behind_image">
-    <img id="photo3" class="par-image-wrapper" src="images/engagement3.jpg" />
+    <img id="photo3" class="par-image-wrapper" src="<c:url value="/images/engagement3.jpg"/>" />
     <div class="over-image">
       <h3>Spread the love</h3>
       <p>Use <span class="white">#MalloryMattWedding</span> on instagram to help us share our special day</p> 
