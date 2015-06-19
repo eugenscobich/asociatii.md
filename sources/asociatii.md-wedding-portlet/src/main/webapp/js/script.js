@@ -195,7 +195,7 @@ $(document).ready(function() {
         $(this).css('border-color',''); 
         $("#result").slideUp();
     });
-
+/*
     $(window).bind("load scroll resize", function() {
         var banner = $('#banner');
          if (isElementInViewport(banner) == false){
@@ -204,6 +204,7 @@ $(document).ready(function() {
             $('header#nav, #nav-button').removeClass('withbg');
          }
     });
+	*/
 });
 
 
