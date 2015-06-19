@@ -20,7 +20,7 @@
 
 
 
-<header id="nav">
+<header id="nav" class="withbg">
 	<nav id="navigation" class="container-fluid">
 		<ul class="row">
 			<li class="nav-col nav-col-1"><a class="scroll" href="#bride-and-groom">Bride &amp; Groom</a></li>
