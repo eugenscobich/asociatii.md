@@ -25,8 +25,8 @@
 	<nav id="navigation" class="container-fluid">
 		<ul class="row">
 			<li class="nav-col nav-col-1"><a class="scroll" href="#bride-and-groom"><liferay-ui:message key="bride-and-groom" /></a></li>
-			<li class="nav-col nav-col-2"><a class="scroll" href="#wedding-party">Wedding Party</a></li>
-			<li class="nav-col nav-col-3"><a class="scroll" href="#when-where">When &amp; Where</a></li>
+			<li class="nav-col nav-col-2"><a class="scroll" href="#wedding-party"><liferay-ui:message key="wedding-party" /></a></li>
+			<li class="nav-col nav-col-3"><a class="scroll" href="#when-where"><liferay-ui:message key="when-and-where" /></a></li>
 			<li class="nav-col nav-col-4"><a class="scroll" href="#lodging">Lodgings</a></li>
 			<li class="nav-col nav-col-5"><a class="scroll" href="#registries">Registries</a></li>
 			<li class="nav-col nav-col-6"><a class="scroll" href="#rsvp">RSVP</a></li>
