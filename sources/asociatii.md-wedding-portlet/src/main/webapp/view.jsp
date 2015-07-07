@@ -15,7 +15,7 @@
 %>
 <%@ taglib prefix="portlet" uri="http://java.sun.com/portlet_2_0"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 <portlet:defineObjects />
 
 
@@ -23,7 +23,7 @@
 <header id="nav" class="withbg">
 	<nav id="navigation" class="container-fluid">
 		<ul class="row">
-			<li class="nav-col nav-col-1"><a class="scroll" href="#bride-and-groom">Bride &amp; Groom</a></li>
+			<li class="nav-col nav-col-1"><a class="scroll" href="#bride-and-groom"><liferay-ui:message key="bride-and-groom" /></a></li>
 			<li class="nav-col nav-col-2"><a class="scroll" href="#wedding-party">Wedding Party</a></li>
 			<li class="nav-col nav-col-3"><a class="scroll" href="#when-where">When &amp; Where</a></li>
 			<li class="nav-col nav-col-4"><a class="scroll" href="#lodging">Lodgings</a></li>
