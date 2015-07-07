@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <%
 /**
  * Copyright (c) 2000-2013 Liferay, Inc. All rights reserved.
@@ -70,12 +71,12 @@
         <div id="our-story" class="row">
           <h3 class="arc-text">Our Story</h3>
           <div class="story-col col-sm-6">
-            <p>One day in November of 2012 the happy couple met. This was not your traditional meeting; in fact it was quite strange. The beautiful bride, Mallory, had just ended the worst date ever, when her wonderful cousin called her and said “I’m having a drink with a date and his friend is here. Do you want to come meet us? His friend is cute.” Mallory quickly replied “of course!” After such a bad evening the only thing that could make it better was a strong drink!</p>
-            <p>Pushing through the crowd, she found Scarlett, her date, and none other than Matthew Mitchell, who would later become the groom. After a few drinks, they decided it was too smoky and crowded, and headed back to Mallory’s apartment to continue the conversation. It turned into a late night. The boys left and Mallory forgot all about asking for Matt’s phone number.</p>
+            <p>One day in November of 2012 the happy couple met. This was not your traditional meeting; in fact it was quite strange. The beautiful bride, Mallory, had just ended the worst date ever, when her wonderful cousin called her and said âIâm having a drink with a date and his friend is here. Do you want to come meet us? His friend is cute.â Mallory quickly replied âof course!â After such a bad evening the only thing that could make it better was a strong drink!</p>
+            <p>Pushing through the crowd, she found Scarlett, her date, and none other than Matthew Mitchell, who would later become the groom. After a few drinks, they decided it was too smoky and crowded, and headed back to Malloryâs apartment to continue the conversation. It turned into a late night. The boys left and Mallory forgot all about asking for Mattâs phone number.</p>
           </div>
           <div class="story-col col-sm-6 xs-hide">
-            <p>The next morning Mallory woke up to find that Matt had left his jacket. How in the world was she supposed to get it back to him? Facebook was the answer. What she didn’t know is that Matt had purposely left his jacket at her house, knowing she would find a way to get in contact with him again.</p>
-            <p>Fast Forward to May 16th, 2014, the day before Mallory’s Birthday. Matt had Mallory in the living room of their house and started saying sweet things. Mallory was oblivious to what was going on until Matt got down on one knee. She immediately started to cry tears of joy. Matt pulled the ring out of his pocket, opened the box upside down and asked her to marry him. With eyes filled with tears and snot running down her face, she said “yes”.</p>
+            <p>The next morning Mallory woke up to find that Matt had left his jacket. How in the world was she supposed to get it back to him? Facebook was the answer. What she didnât know is that Matt had purposely left his jacket at her house, knowing she would find a way to get in contact with him again.</p>
+            <p>Fast Forward to May 16th, 2014, the day before Malloryâs Birthday. Matt had Mallory in the living room of their house and started saying sweet things. Mallory was oblivious to what was going on until Matt got down on one knee. She immediately started to cry tears of joy. Matt pulled the ring out of his pocket, opened the box upside down and asked her to marry him. With eyes filled with tears and snot running down her face, she said âyesâ.</p>
           </div>
           <a id="readmore" class="button" href="index.html#">Read More</a>
         </div>
@@ -175,8 +176,8 @@
         <p class="phone">1-256-539-7373</p>
         <a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=12125715">Book a Room Online</a>
         <div class="hotel_features">
-          <p>Guests of the Mitchell wedding may enjoy a complimentary breakfast buffet, our complimentary cocktail hour every evening from 5:30-7:30pm, access to our indoor pool and our 24 hour state of the art fitness center, a complimentary shuttle for guests to and from the airport and anywhere within a 2 mile radius, and 10% off of spa services at our “Spa Botanica”.</p>
-          <p>Please book before midnight on January 31, 2015 to take advantage of our special rate.  Mention the “Mitchell Wedding” when calling.</p>
+          <p>Guests of the Mitchell wedding may enjoy a complimentary breakfast buffet, our complimentary cocktail hour every evening from 5:30-7:30pm, access to our indoor pool and our 24 hour state of the art fitness center, a complimentary shuttle for guests to and from the airport and anywhere within a 2 mile radius, and 10% off of spa services at our âSpa Botanicaâ.</p>
+          <p>Please book before midnight on January 31, 2015 to take advantage of our special rate.  Mention the âMitchell Weddingâ when calling.</p>
         </div>
       </div>
       <div class="hotel_details" id="marker2" style="display: none;">
