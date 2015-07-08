@@ -27,12 +27,11 @@
 <header id="nav" class="withbg">
 	<nav id="navigation" class="container-fluid">
 		<ul class="row">
+			<li class="nav-col nav-col-4"></li>
+			<li class="nav-col nav-col-5"></li>
 			<li class="nav-col nav-col-1"><a class="scroll" href="#bride-and-groom">Mireasa și mire</a></li>
 			<li class="nav-col nav-col-2"><a class="scroll" href="#wedding-party">Sărbatoarea Nunței</a></li>
 			<li class="nav-col nav-col-3"><a class="scroll" href="#when-where">Unde și Cînd</a></li>
-<!-- 			<li class="nav-col nav-col-4"><a class="scroll" href="#lodging">ĂÎȘȚ</a></li>
-			<li class="nav-col nav-col-5"><a class="scroll" href="#registries">Registries</a></li>
-			<li class="nav-col nav-col-6"><a class="scroll" href="#rsvp">RSVP</a></li> -->
 		</ul>
 	</nav>
 	<div id="nav-button"><span id="nav-icon"></span></div>
@@ -46,7 +45,7 @@
 			</div>
 			<h1>Alina + Eugen</h1>
 			<h3>Chișinău</h3>
-			<p>2 Octombrie 2015<br/>Ora 18:00</p>
+			<p>2 Octombrie 2015<br/>Începutul la 18:00<br/></p>
 			
 		</div>
 	</section>
@@ -62,17 +61,17 @@
       <div class="container-fluid">
         <div class="row">
           <div class="brgm-col col-sm-6 r-align">
-            <h3 >The Bride</h3>
-            <h4>Mallory Brooke Laughlin</h4>
+            <h3>Mireasa</h3>
+            <h4>Alina</h4>
           </div>
           <div class="brgm-col col-sm-6 l-align">
-            <h3>The Groom</h3>
-            <h4>Matthew Carter Mitchell</h4>
+            <h3>Mirele</h3>
+            <h4>Eugen</h4>
           </div>
         </div>
 
         <div id="our-story" class="row">
-          <h3 class="arc-text">Our Story</h3>
+          <h3 class="arc-text">Povestea noastră</h3>
           <div class="story-col col-sm-6">
             <p>One day in November of 2012 the happy couple met. This was not your traditional meeting; in fact it was quite strange. The beautiful bride, Mallory, had just ended the worst date ever, when her wonderful cousin called her and said âIâm having a drink with a date and his friend is here. Do you want to come meet us? His friend is cute.â Mallory quickly replied âof course!â After such a bad evening the only thing that could make it better was a strong drink!</p>
             <p>Pushing through the crowd, she found Scarlett, her date, and none other than Matthew Mitchell, who would later become the groom. After a few drinks, they decided it was too smoky and crowded, and headed back to Malloryâs apartment to continue the conversation. It turned into a late night. The boys left and Mallory forgot all about asking for Mattâs phone number.</p>
@@ -81,7 +80,7 @@
             <p>The next morning Mallory woke up to find that Matt had left his jacket. How in the world was she supposed to get it back to him? Facebook was the answer. What she didnât know is that Matt had purposely left his jacket at her house, knowing she would find a way to get in contact with him again.</p>
             <p>Fast Forward to May 16th, 2014, the day before Malloryâs Birthday. Matt had Mallory in the living room of their house and started saying sweet things. Mallory was oblivious to what was going on until Matt got down on one knee. She immediately started to cry tears of joy. Matt pulled the ring out of his pocket, opened the box upside down and asked her to marry him. With eyes filled with tears and snot running down her face, she said âyesâ.</p>
           </div>
-          <a id="readmore" class="button" href="index.html#">Read More</a>
+          
         </div>
       </div>
     </div>
