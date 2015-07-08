@@ -85,7 +85,7 @@
   </section> 
 
   <div class="behind_image">
-    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/engagement2-my.jpg"/>" />
+    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/nasii.jpg"/>" />
   </div>
 
   <section id="wedding-party">
@@ -98,22 +98,22 @@
       <div class="row">
         <div class="col-sm-6">
           <h4>Roman Talpa</h4>
-          <h5>Nașu</h5>
+          <h5>Nasu</h5>
         </div>
         <div class="col-sm-6">
           <h4>Zinaida Talpa</h4>
-          <h5>Nașa</h5>
+          <h5>Nasa</h5>
         </div>
       </div>
       
-      <div class="row">
+      <div class="row" style="margin-top: 30px">
         <div class="col-sm-6">
           <h4>Maria și Mihail Scobici</h4>
           <h5>Socrii cei mari</h5>
         </div>
         <div class="col-sm-6">
           <h4>Maria și Boris Lisnic</h4>
-          <h5>Socrii cei maci</h5>
+          <h5>Socrii cei mici</h5>
         </div>
       </div>
       
@@ -124,16 +124,12 @@
         </div>
         <div class="col-sm-6">
           <h4>Roma Plamadeala</h4>
-          <h5>Vornicelul cel mare</h5>
+          <h5>Vornicel cel mare</h5>
         </div>
       </div>
     </div>
   </section>
 
-
-  <div class="behind_image">
-    <img id="photo11" class="par-image-wrapper" src="<c:url value="/images/nasii.jpg"/>" />
-  </div>
 
   <section id="when-where">
 
@@ -143,14 +139,14 @@
       </object>
     </h2>
     <div id="ww-info">
-      <h3 id="ww_loc"><span class="arc-text">The Historic</span><br />Roundhouse Depot</h3>
-      <h5 id="ww_city">Huntsville, Alabama<span></span></h5>
+      <h3 id="ww_loc"><span class="arc-text">Restorantul</span><br />White Hall</h3>
+      <h5 id="ww_city">Cisinau, str. Zimbrului 10<span></span></h5>
       <div class="clock_icon"></div>
-      <p  id="ww_time"><span class="arc-text">5 o'clock</span><br />in the evening<p>
-      <p  id="ww_date">February Twenty First<br />Two Thousand and Fifteen<p>
+      <p  id="ww_time"><span class="arc-text">ora șase</span><br />vineri seara<p>
+      <p  id="ww_date">Două Octombie<br />Două mii cincisprezece<p>
     </div>
     <div id="location">
-      <p><a href="https://goo.gl/maps/dhx42" target="_blank"><span class="map_icon"></span>320 Church Street&nbsp; Huntsville, Alabama</a></p>
+      <p><a href="http://point.md/ru/map/#x%3D47.036679800326866%26y%3D28.862929344177246%26z%3D16%26m%3D%5B%5B47.03566707541316%2C28.870262503623962%2C%22%22%5D%5D" target="_blank"><span class="map_icon"></span>Cisinau, str. Zimbrului 10</a></p>
     </div>
     <div id="roundhouse" class="svg-wrapper shorten">
       <object data="<c:url value="/images/roundhouse.svg"/>" type="image/svg+xml"></object>
@@ -159,33 +155,6 @@
 
   <section id="lodging">
     <div id="map-canvas"></div>
-    <div id="lodging-details">
-      <h2 class="ribbon shorten">
-        <object data="<c:url value="/images/banners/lodging.svg"/>" type="image/svg+xml">
-
-        </object>
-      </h2>
-
-      <div class="hotel_details" id="marker1">
-        <img src="<c:url value="/images/marker1@2x.png"/>" width="24" height="37" alt="">
-        <h3>Embassy Suites</h3>
-        <p class="address">800 Monroe St SW<br />Huntsville, AL 35801</p>
-        <p class="phone">1-256-539-7373</p>
-        <a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=12125715">Book a Room Online</a>
-        <div class="hotel_features">
-          <p>Guests of the Mitchell wedding may enjoy a complimentary breakfast buffet, our complimentary cocktail hour every evening from 5:30-7:30pm, access to our indoor pool and our 24 hour state of the art fitness center, a complimentary shuttle for guests to and from the airport and anywhere within a 2 mile radius, and 10% off of spa services at our âSpa Botanicaâ.</p>
-          <p>Please book before midnight on January 31, 2015 to take advantage of our special rate.  Mention the âMitchell Weddingâ when calling.</p>
-        </div>
-      </div>
-      <div class="hotel_details" id="marker2" style="display: none;">
-        <img src="<c:url value="/images/marker2@2x.png"/>" width="24" height="37" alt="">
-        <h3>Spring Hill Hotel</h3>
-        <p class="address">745 Constellation Place Drive SW<br />Huntsville, AL 35801<br /><br />1-256-512-0188</p> 
-        <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Laughlin/Mitchell%20Wedding%20%5Ehsvsh%60LMWLMWK%7CLMWLMWQ%60109.00%60USD%60false%602/21/15%602/22/15%601/21/15&app=resvlink" target="_blank">Book a Room Online</a>        
-        <p>Guests of the Mitchell wedding can take advantage of the stylish and smartly designed suites which are 25% larger than comprably priced hotel rooms.  Guests have access to free high speed internet, fitness center, and free breakfast.</p>
-        <p>Please book before January 21, 2015.</p>
-      </div>
-    </div>
   </section>
   
   <div class="behind_image">

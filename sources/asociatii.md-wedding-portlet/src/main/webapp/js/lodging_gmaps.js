@@ -10,7 +10,7 @@ $(window).bind("load resize scroll",function(e) {
 });
 
 var map;
-var center = new google.maps.LatLng(34.729962, -86.596517);
+var center = new google.maps.LatLng(47.035609,28.869928);
 
 var MY_MAPTYPE_ID = 'custom_style';
 
