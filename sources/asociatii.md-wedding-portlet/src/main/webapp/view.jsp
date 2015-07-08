@@ -139,14 +139,15 @@
       </object>
     </h2>
     <div id="ww-info">
-      <h3 id="ww_loc"><span class="arc-text">Restorantul</span><br />White Hall</h3>
+      <h3 id="ww_loc"><span class="arc-text">Restaurantul</span><br />White Hall</h3>
       <h5 id="ww_city">Cisinau, str. Zimbrului 10<span></span></h5>
       <div class="clock_icon"></div>
       <p  id="ww_time"><span class="arc-text">ora șase</span><br />vineri seara<p>
       <p  id="ww_date">Două Octombie<br />Două mii cincisprezece<p>
     </div>
     <div id="location">
-      <p><a href="http://point.md/ru/map/#x%3D47.036679800326866%26y%3D28.862929344177246%26z%3D16%26m%3D%5B%5B47.03566707541316%2C28.870262503623962%2C%22%22%5D%5D" target="_blank"><span class="map_icon"></span>Cisinau, str. Zimbrului 10</a></p>
+      <p><a href="http://point.md/ru/map/#x%3D47.036679800326866%26y%3D28.862929344177246%26z%3D16%26m%3D%255B%255B47.03566707541316%252C28.870262503623962%252C%2522White%2520Hall%2520(Hotelul%2520Dacia)%2522%255D%255D"
+       target="_blank"><span class="map_icon"></span>Cisinau, str. Zimbrului 10</a></p>
     </div>
     <div id="roundhouse" class="svg-wrapper shorten">
       <object data="<c:url value="/images/roundhouse.svg"/>" type="image/svg+xml"></object>
@@ -158,7 +159,7 @@
   </section>
   
   <div class="behind_image">
-    <img id="photo2" class="par-image-wrapper" src="<c:url value="/images/engagement4.jpg"/>" />
+    <img id="photo2" class="par-image-wrapper" src="<c:url value="/images/engagement2-my.jpg"/>" />
   </div>
 
   <section id="registries">
@@ -194,7 +195,7 @@
   </section>
 
   <footer class="behind_image">
-    <img id="photo3" class="par-image-wrapper" src="<c:url value="/images/engagement3.jpg"/>" />
+    <img id="photo3" class="par-image-wrapper" src="<c:url value="/images/engagement3-my.jpg"/>" />
     <div class="over-image">
       <h3>Spread the love</h3>
       <p>Use <span class="white">#MalloryMattWedding</span> on instagram to help us share our special day</p> 
