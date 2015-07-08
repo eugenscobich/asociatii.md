@@ -27,9 +27,7 @@
 <header id="nav" class="withbg">
 	<nav id="navigation" class="container-fluid">
 		<ul class="row">
-			<li class="nav-col nav-col-4"></li>
-			<li class="nav-col nav-col-5"></li>
-			<li class="nav-col nav-col-1"><a class="scroll" href="#bride-and-groom">Mireasa și mire</a></li>
+			<li class="nav-col nav-col-1" style="margin-left: 250px"><a class="scroll" href="#bride-and-groom">Mireasa și mire</a></li>
 			<li class="nav-col nav-col-2"><a class="scroll" href="#wedding-party">Sărbatoarea Nunței</a></li>
 			<li class="nav-col nav-col-3"><a class="scroll" href="#when-where">Unde și Cînd</a></li>
 		</ul>
@@ -87,7 +85,7 @@
   </section> 
 
   <div class="behind_image">
-    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/engagement2.jpg"/>" />
+    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/engagement2-my.jpg"/>" />
   </div>
 
   <section id="wedding-party">
@@ -227,106 +225,6 @@
         </div>
       </div>
     </div>
-  </section>
-
-
-  <section id="rsvp">
-    <h2 class="ribbon">
-      <object data="<c:url value="/images/banners/rsvp.svg"/>" type="image/svg+xml">
-
-      </object>
-    </h2>
-    <div class="container-fluid">
-      <div class="row" style="position: relative;">
-        <div id="message"></div>
-        <div id="success">
-          <div class="arc-text">Thank You</div>
-          <div class="line2 mes_yes">For joining us</div>
-          <div class="line2 mes_no">For your RSVP</div>
-          <div class="line_br"></div>
-          <div class="line3 mes_yes">See you There!</div>
-          <div class="line3 mes_no">Sorry we'll miss you</div>
-
-        </div>
-      </div>
-    </div>
-
-    
-    
-      <form id="rsvp_form" method="post" action="http://mattandmallory.com/rsvp/rsvp.php">
-        <p style="text-align: center; font-family: 'yellowtailregular';font-size: 1.25em; margin: -5% 0 5% 0;">Please RSVP by February 2nd</p>
-        <div id="loading" style="display:none;"></div>
-        <div class="container-fluid">
-          <fieldset class="row radio-group">
-            <legend align="center">Will you be attending? *</legend>
-            <div class="col-xs-6">
-              <input name="attend" type="radio" id="attend_yes" value="yes">
-              <label for="attend_yes">Accept</label>
-            </div>
-            <div class="col-xs-6">
-              <input name="attend" type="radio" id="attend_no" value="no">
-              <label for="attend_no">Decline</label>
-            </div>
-          </fieldset>
-
-          <fieldset class="row" id="guest_info">
-            <div class="col-xs-6 text">
-              <input name="first_name" type="text" value="" placeholder="First Name *" />
-            </div>
-            <div class="col-xs-6 text">
-              <input name="last_name" type="text" value="" placeholder="Last Name *" />
-            </div>              
-            <div class="col-xs-12">
-              <input name="email" type="email" value="" placeholder="E-Mail" />
-            </div>
-          </fieldset> 
-            
-          <fieldset class="row radio-group" id="guest" style="display: none;">
-            <legend align="center">Will you be bringing a guest? *</legend>
-              
-            <div class="col-xs-6">
-              <input name="guest" type="radio" id="guest_yes" value="yes">
-              <label for="guest_yes">Yes</label><br>
-            </div>
-            <div class="col-xs-6">
-              <input name="guest" type="radio" id="guest_no" value="no">
-              <label for="guest_no">No</label><br>
-            </div>
-          </fieldset>
-
-           <fieldset class="row" id="rsvp_guest_info" style="display: none;" >
-             <div class="col-xs-6 text">
-               <input name="guest_first_name" type="text" value="" placeholder="Guest's First Name" />
-             </div>
-             <div class="col-xs-6 text">
-               <input name="guest_last_name" type="text" value="" placeholder="Guest's Last Name" />
-             </div>              
-             <div class="col-xs-12">
-               <input name="guest_email" type="email" value="" placeholder="Guest's E-Mail"/>
-             </div>
-           </fieldset>
-            
-          <fieldset class="row" id="rsvp_song" style="display: none; text-align: center;">
-            <legend align="center">Request a song to play at the reception</legend>
-            <div class="col-xs-6 text">
-              <input name="song_name" type="text" placeholder="Song Name" />
-            </div>
-            <div class="col-xs-6 text">
-              <input name="song_artist" type="text" placeholder="Artist" />
-            </div>              
-            
-          </fieldset>            
-
-          <fieldset class="row" id="comments_sec" style="display: none;">
-            <div class="col-xs-12">
-              <textarea id="comments" name="comments" type="text" value="" placeholder="Comments" style="display: ;"></textarea>
-            </div> 
-          </fieldset>
-
-          <input id="submit" name="submit" type="submit" value="Submit" />
-
-        </div>
-      </form>
   </section>
 
   <footer class="behind_image">
