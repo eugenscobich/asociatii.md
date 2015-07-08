@@ -10,7 +10,7 @@ $(window).bind("load resize scroll",function(e) {
 });
 
 var map;
-var center = new google.maps.LatLng(47.035609,28.869928);
+var center = new google.maps.LatLng(47.035609, 28.869928);
 
 var MY_MAPTYPE_ID = 'custom_style';
 
@@ -112,7 +112,7 @@ function initialize() {
   map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
 
   var styledMapOptions = {
-    name: 'Matt & Mallory'
+    name: 'Alina & Eugen'
   };
 
   var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
@@ -126,9 +126,9 @@ var marker = [];
 var iterator = 0;
 
 var lodging_options = [
-  new google.maps.LatLng(34.733998, -86.589170), //Roundhouse
-  new google.maps.LatLng(34.725202, -86.589586), //Embassy
-  new google.maps.LatLng(34.723880, -86.593765)  //Spring Hill
+  new google.maps.LatLng(47.035609, 28.869928), //Roundhouse
+  new google.maps.LatLng(47.035609, 28.869928), //Embassy
+  new google.maps.LatLng(47.035609, 28.869928)  //Spring Hill
 ];
 
 var pin_url = [
