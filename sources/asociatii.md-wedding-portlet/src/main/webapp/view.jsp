@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@page contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
+<%request.setCharacterEncoding("utf-8");%>
 <%
 /**
  * Copyright (c) 2000-2013 Liferay, Inc. All rights reserved.
