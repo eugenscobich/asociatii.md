@@ -126,15 +126,11 @@ var marker = [];
 var iterator = 0;
 
 var lodging_options = [
-  new google.maps.LatLng(47.035609, 28.869928), //Roundhouse
-  new google.maps.LatLng(47.035609, 28.869928), //Embassy
-  new google.maps.LatLng(47.035609, 28.869928)  //Spring Hill
+  new google.maps.LatLng(47.035609, 28.869928) //Roundhouse
 ];
 
 var pin_url = [
-  '/asociatii.md-wedding-portlet/images/marker0@2x.png?v=3',
-  '/asociatii.md-wedding-portlet/images/marker1@2x.png?v=3',
-  '/asociatii.md-wedding-portlet/images/marker2@2x.png?v=3'
+  '/asociatii.md-wedding-portlet/images/marker1@2x.png'
 ]
 
 

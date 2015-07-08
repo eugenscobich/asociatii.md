@@ -196,9 +196,9 @@
 
   <footer class="behind_image">
     <img id="photo3" class="par-image-wrapper" src="<c:url value="/images/engagement3-my.jpg"/>" />
-    <div class="over-image">
+    <!-- <div class="over-image">
       <h3>Spread the love</h3>
       <p>Use <span class="white">#MalloryMattWedding</span> on instagram to help us share our special day</p> 
-    </div>
+    </div> -->
   </footer>
 </div>
