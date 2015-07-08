@@ -97,42 +97,34 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6">
-          <h4>Kirk Laughlin</h4>
-          <h5>Man of Honor</h5>
-          <ul class="party-group row">
-            <li class="col-xs-6">Jennifer Kottman</li>
-            <li class="col-xs-6">Emily Smith</li>
-            <li class="col-xs-6">Amber Wheeler</li>
-            <li class="col-xs-6">Franchesca Rivera</li>
-            <li class="col-xs-6">Brittani Deweese</li>
-            <li class="col-xs-6">Casie Dodge</li>
-          </ul>
+          <h4>Roman Talpa</h4>
+          <h5>Nașu</h5>
         </div>
         <div class="col-sm-6">
-          <h4>Morgan George</h4>
-          <h5>Best Woman</h5>
-          <ul class="party-group row">
-            <li class="col-xs-6">Brandon Allen</li>
-            <li class="col-xs-6">Jackson Hogan</li>
-            <li class="col-xs-6">Seth Hudson</li>
-            <li class="col-xs-6">Ryan Allen</li>
-            <li class="col-xs-6">Kent Ordway</li>
-            <li class="col-xs-6">Julian Moffit</li>
-          </ul>
+          <h4>Zinaida Talpa</h4>
+          <h5>Nașa</h5>
         </div>
       </div>
+      
+      <div class="row">
+        <div class="col-sm-6">
+          <h4>Maria și Mihail Scobici</h4>
+          <h5>Socrii cei mari</h5>
+        </div>
+        <div class="col-sm-6">
+          <h4>Maria și Boris Lisnic</h4>
+          <h5>Socrii cei maci</h5>
+        </div>
+      </div>
+      
       <div id="bearers" class="row">
-        <div class="col-sm-4">
-          <h4>Stella Anderson</h4>
-          <h5>Flower Girl</h5>
+        <div class="col-sm-6">
+          <h4>Diana Lisnic</h4>
+          <h5>Vornicica cea mare</h5>
         </div>
-        <div class="col-sm-4">
-          <h4>Jude Rozell</h4>
-          <h5>Ring Bearer</h5>
-        </div>
-        <div class="col-sm-4">
-          <h4>Will Anderson</h4>
-          <h5>Ring Bearer</h5>
+        <div class="col-sm-6">
+          <h4>Roma Plamadeala</h4>
+          <h5>Vornicelul cel mare</h5>
         </div>
       </div>
     </div>
