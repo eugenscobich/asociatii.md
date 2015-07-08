@@ -132,9 +132,9 @@ var lodging_options = [
 ];
 
 var pin_url = [
-  '/images/marker0@2x.png?v=3',
-  '/images/marker1@2x.png?v=3',
-  '/images/marker2@2x.png?v=3'
+  '/asociatii.md-wedding-portlet/images/marker0@2x.png?v=3',
+  '/asociatii.md-wedding-portlet/images/marker1@2x.png?v=3',
+  '/asociatii.md-wedding-portlet/images/marker2@2x.png?v=3'
 ]
 
 
@@ -204,10 +204,10 @@ function mapRedefine(){
   
   myWidth = window.innerWidth;
   if(myWidth <=767){
-    var currCenter = new google.maps.LatLng(34.730449, -86.589444);
+    var currCenter = new google.maps.LatLng(47.035609, 28.869928);
     map.setZoom(14);
   }else if(myWidth = 768){
-    var currCenter = new google.maps.LatLng(34.729490, -86.608541);
+    var currCenter = new google.maps.LatLng(47.035609, 28.869928);
     map.setZoom(14);
   }else{
     var currCenter = center;
