@@ -20,6 +20,7 @@ public class UTF8Filter implements Filter {
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
+		System.out.print("=======================");
 		request.setCharacterEncoding("UTF-8");
 		chain.doFilter(request, response);
 	}
