@@ -1,5 +1,5 @@
 var stop = false;
-$(window).bind("load resize scroll",function(e) {
+$(window).bind("load resize scroll",function(e) { drop();
   var lodging_details = $('#lodging-details');/*
   if ((isElementInViewport(lodging_details) == true) && (stop == false) ){
     if (  (typeof google === 'object' && typeof google.maps === 'object')  ){
