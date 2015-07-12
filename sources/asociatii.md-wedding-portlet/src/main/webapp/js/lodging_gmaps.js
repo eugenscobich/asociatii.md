@@ -27,7 +27,7 @@ function initialize() {
 "featureType": "road.local",
 "elementType": "labels.text",
 "stylers": [
-{ "visibility": "off" }
+{ "visibility": "on" }
 ]
 },{
 "featureType": "road.local",
@@ -200,13 +200,13 @@ function mapRedefine(){
   myWidth = window.innerWidth;
   if(myWidth <=767){
     var currCenter = new google.maps.LatLng(47.035609, 28.869928);
-    map.setZoom(17);
+    map.setZoom(14);
   }else if(myWidth = 768){
     var currCenter = new google.maps.LatLng(47.035609, 28.869928);
-    map.setZoom(17);
+    map.setZoom(14);
   }else{
     var currCenter = center;
-    map.setZoom(17);
+    map.setZoom(14);
   }
 
   map.setCenter(currCenter);
