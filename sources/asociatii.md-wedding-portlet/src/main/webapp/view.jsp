@@ -87,7 +87,7 @@
   </section> 
 
   <div class="behind_image">
-    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/nasii.jpg"/>" />
+    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/nasii.jpg"/>" style="width: 100%;"/>
   </div>
 
   <section id="wedding-party">
