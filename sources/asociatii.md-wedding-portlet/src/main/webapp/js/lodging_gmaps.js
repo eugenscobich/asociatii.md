@@ -1,12 +1,12 @@
 var stop = false;
 $(window).bind("load resize scroll",function(e) {
-  var lodging_details = $('#lodging-details');
+  var lodging_details = $('#lodging-details');/*
   if ((isElementInViewport(lodging_details) == true) && (stop == false) ){
     if (  (typeof google === 'object' && typeof google.maps === 'object')  ){
       drop();
       stop = true;
     }
-  }
+  }*/
 });
 
 var map;
