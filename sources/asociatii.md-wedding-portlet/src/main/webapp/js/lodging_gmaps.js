@@ -10,7 +10,7 @@ $(window).bind("load resize scroll",function(e) {
 });
 
 var map;
-var center = new google.maps.LatLng(47.035609, 28.869928);
+var center = new google.maps.LatLng(47.035609,28.869928);
 
 var MY_MAPTYPE_ID = 'custom_style';
 
@@ -98,8 +98,7 @@ function initialize() {
 
 
   var mapOptions = {
-    zoom: 16
-    ,
+    zoom: 20,
     center: center,
     scrollwheel: false,
     draggable: true,
