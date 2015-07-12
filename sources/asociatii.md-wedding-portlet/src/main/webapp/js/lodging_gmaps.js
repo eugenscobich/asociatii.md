@@ -27,7 +27,7 @@ function initialize() {
 "featureType": "road.local",
 "elementType": "labels.text",
 "stylers": [
-{ "visibility": "on" }
+{ "visibility": "off" }
 ]
 },{
 "featureType": "road.local",
