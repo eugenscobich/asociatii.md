@@ -368,7 +368,8 @@ body {
 }
 
 .alina-si-eugen-wedding-portlet #banner p {
-	font-size: 1.250em;
+	font-size: 2em;
+	padding-bottom: 20px;
 }
 
 .alina-si-eugen-wedding-portlet #banner .svg-wrapper {
@@ -391,6 +392,11 @@ body {
 	border-top-left-radius: 250% 150px;
 	border-top-right-radius: 250% 150px;
 	padding: 10% 0 10% 0;
+}
+
+.alina-si-eugen-wedding-portlet #curve-wrap h4{
+	font-size: 6em;
+	line-height: 70px;
 }
 
 .alina-si-eugen-wedding-portlet #bride-and-groom .container-fluid {
