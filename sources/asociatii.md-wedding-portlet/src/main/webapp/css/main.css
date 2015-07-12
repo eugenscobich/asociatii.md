@@ -28,3 +28,7 @@ body {
     font-weight: bold;
     font-family: inherit !important;
 }
+
+.aui img {
+    max-width: inherit !important;
+}
