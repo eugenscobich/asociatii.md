@@ -98,11 +98,11 @@ function initialize() {
 
 
   var mapOptions = {
-    zoom: 15
+    zoom: 16
     ,
     center: center,
     scrollwheel: false,
-    draggable: false,
+    draggable: true,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
     },
@@ -126,12 +126,12 @@ var marker = [];
 var iterator = 0;
 
 var lodging_options = [
-  new google.maps.LatLng(47.035609, 28.869928) //Roundhouse
+  new google.maps.LatLng(47.035609,28.869928) //Roundhouse
 ];
 
 var pin_url = [
   '/asociatii.md-wedding-portlet/images/marker1@2x.png'
-]
+];
 
 
 function drop() {
@@ -213,14 +213,14 @@ function mapRedefine(){
   map.setCenter(currCenter);
 }
 
-function lodging_info_update(marker_name){
+function lodging_info_update(marker_name){/*
   if(marker_name == 'marker2'){
     document.getElementById('marker2').style.display = 'block';
     document.getElementById('marker1').style.display = 'none';
   }else{
     document.getElementById('marker2').style.display = 'none';
     document.getElementById('marker1').style.display = 'block';
-  }
+  }*/
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
