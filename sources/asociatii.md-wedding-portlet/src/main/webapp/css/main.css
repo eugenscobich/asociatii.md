@@ -26,4 +26,5 @@ body {
     /*clip: rect(0px, 0px, 0px, 0px);*/
     position: static !important;
     font-weight: bold;
+    font-family: inherit !important;
 }
