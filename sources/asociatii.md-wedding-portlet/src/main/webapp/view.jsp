@@ -71,14 +71,14 @@
         <div id="our-story" class="row">
           <h3 class="arc-text">Povestea noastră</h3>
           <div class="story-col col-sm-6">
-            <p>Pentru prima data ne-am vazut la una din sarbatorile corporative ale companiei la care eu recent ma angajasem. Cautam un locusor unde sa ma asez. Toate mesele erau ocupate in afara de una. La acea masa statea el. Eu m-am interesat daca pot sa ma asez acolo, si el a zis da. Dupa ce am schimbat vre-o doua vorbe am mers la furshet. Acolo Eugen a inceput sa ma curteze, prin a ma hrani :D. Cred ca i-am parut cam slaba. In orice caz atentia mea in acea seara nu a fost atrasa de vre-o anumita persoana, ci mai mult de atmosfera acestei frumoase sarbatori de vara. In zilele ce au urmat, Eugen, stiind ca eu sunt in perioada de internsheep, ma ajuta cu sfaturi utile pentru a avansa mai rapid in domeniu. Apoi el a plecat in Londra pentru 2 luni. Cind s-a intors, undeva un jurul zilei de Craciun noi am iesit pentru prima data in oras. Si de atunci s-a inceput frumoasa noastra poveste de dragoste…</p>
-            <p></p>
+            <p>Pentru prima data ne-am văzut la una din sărbătorile corporative ale companiei la care eu recent mă angajasem. Căutam un locușor unde să mă așez. Toate mesele erau ocupate în afara de una. La acea masa stătea el. Eu m-am interesat daca pot să mă așez acolo, si el a zis da. După ce am schimbat vreo doua vorbe am mers la furshet. Acolo Eugen a început sa mă curteze, prin a mă hrăni :D. Cred ca i-am părut cam slaba. In orice caz atenția mea in acea seara nu a fost atrasa de vreo anumita persoana, ci mai mult de atmosfera acestei frumoase sărbători de vara.</p>
+            <p>In zilele ce au urmat, Eugen, știind ca eu sunt in perioada de internsheep, mă ajuta cu sfaturi utile pentru a avansa mai rapid în domeniu. Apoi el a plecat in Londra pentru 2 luni. Când s-a întors, undeva un jurul zilei de Crăciun noi am ieșit pentru prima data in oraș. Si de atunci s-a început frumoasa noastră poveste de dragoste…</p>
           </div>
           <div class="story-col col-sm-6 xs-hide">
-            <p>Am vazut-o pe Alina pentru prima oară la o sărbătoare la companiea unde lucrez. Ea statea singurică și nu știa cum saă se comporte într-o companie nouă pentru ia. M-am apropiat și i-am propus să nu se rușineze și să guste din bucatele ce erau pe masa de sărbătoare. Aici a și fost un prim simbol în viața noastră. </p>
-            <p>Au urmat zile grele de lucru. Eu din cînd în cînd mă apropiam de Alina la servici ca să văd ce mai face și o ajutam cu ceva la moment. Ea este vesnic zîmbetoare ceea ce ma făcut să fiu deschis cu ea, îmi placia să o ajut și sa-i dau sfaturi utile.</p>
-            <p>Nu am sa uit nici o dată momentul cînd mergeam spre aeroport și Alina mi-a scris un mesaj cu urare de drum bun. Anume în acel moment am înțeles că între noi e ceva mai mult decît relații coligiale, însă ea nu știa de asta.</p>
-            <p>Am revenit din Londra și peste ceva timp am hotărît să o invit pe Alina la o cafea în oraș. Ea a acceptat. De aici încolo relațiile noastre se dezvoltau în continuu pînă într-o zi de toamnă. Pe 30 octombrie 2014 eu am cerut-o pe Alina de soție. Sper că răspunsul îl știți deja.</p>
+            <p>Am văzut-o pe Alina pentru prima oară la o sărbătoare a companiei unde lucrez. Ea stătea singurică și nu știa cum să se comporte într-o companie nouă pentru ea. M-am apropiat și i-am propus să nu se rușineze și să guste din bucatele ce erau pe masa de sărbătoare. Aici a și fost un prima întâlnirea în viața noastră.</p>
+            <p>Au urmat zile grele de lucru. Eu din când în când mă apropiam de Alina la servici ca să văd ce mai face și o ajutam cu ceva la moment. Ea este veșnic zâmbitoare ceea ce mă făcut să fiu deschis cu ea, îmi plăcea să o ajut și sa-i dau sfaturi utile.</p>
+            <p>Nu am să uit nici o dată momentul când mergeam spre aeroport și Alina mi-a scris un mesaj cu urare de drum bun. Anume în acel moment am înțeles că între noi e ceva mai mult decât relații colegiale, însă ea nu știa de asta.</p>
+            <p>Am revenit din Londra și peste ceva timp am hotărât să o invit pe Alina la o cafea în oraș. Ea a acceptat. De aici încolo relațiile noastre se dezvoltau în continuu până într-o zi de toamnă. Pe 30 octombrie 2014 eu am cerut-o pe Alina de soție. Sper că ați gâcit răspunsul.</p>
           </div>
           
         </div>
@@ -175,21 +175,13 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="svg-wrapper">
-            <a href="http://m.target.com/gift-registry/giftgiver?registryId=FevAqFYQIIWK4KCnlKHLrw&registryType=WEDDING" target="_blank">
-              <object data="<c:url value="/images/target_logo.svg"/>" type="image/svg+xml">
-
-              </object>
-            </a>
+            
           </div>
         </div>          
 
         <div class="col-sm-6">
           <div class="svg-wrapper">
-            <a href="https://www.anthropologie.com/anthro/wishlist/wishlist.jsp?_DARGS=/anthro/wishlist/gift_list_search_results_vwr.jsp_A&_DAV=gl_PHL3238240633&_dynSessConf=6201208064216873050" target="_blank">
-              <object data="<c:url value="/images/anthro_logo_2.svg"/>" type="image/svg+xml">
-
-              </object>
-            </a>
+           
           </div>
         </div>
       </div>
