@@ -21,3 +21,14 @@ body {
 #_145_dockbar {
 	display: none;
 }
+
+.aui #banner h2, .aui #banner h3, .aui .site-breadcrumbs h1 {
+    /*clip: rect(0px, 0px, 0px, 0px);*/
+    position: static !important;
+    font-weight: bold;
+    font-family: inherit !important;
+}
+
+.aui img {
+    max-width: inherit !important;
+}

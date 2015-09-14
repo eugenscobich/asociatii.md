@@ -71,12 +71,14 @@
         <div id="our-story" class="row">
           <h3 class="arc-text">Povestea noastră</h3>
           <div class="story-col col-sm-6">
-            <p>One day in November of 2012 the happy couple met. This was not your traditional meeting; in fact it was quite strange. The beautiful bride, Mallory, had just ended the worst date ever, when her wonderful cousin called her and said âIâm having a drink with a date and his friend is here. Do you want to come meet us? His friend is cute.â Mallory quickly replied âof course!â After such a bad evening the only thing that could make it better was a strong drink!</p>
-            <p>Pushing through the crowd, she found Scarlett, her date, and none other than Matthew Mitchell, who would later become the groom. After a few drinks, they decided it was too smoky and crowded, and headed back to Malloryâs apartment to continue the conversation. It turned into a late night. The boys left and Mallory forgot all about asking for Mattâs phone number.</p>
+            <p>Pentru prima data ne-am văzut la una din sărbătorile corporative ale companiei la care eu recent mă angajasem. Căutam un locușor unde să mă așez. Toate mesele erau ocupate în afara de una. La acea masa stătea el. Eu m-am interesat daca pot să mă așez acolo, si el a zis da. După ce am schimbat vreo doua vorbe am mers la furshet. Acolo Eugen a început sa mă curteze, prin a mă hrăni :D. Cred ca i-am părut cam slaba. In orice caz atenția mea in acea seara nu a fost atrasa de vreo anumita persoana, ci mai mult de atmosfera acestei frumoase sărbători de vara.</p>
+            <p>In zilele ce au urmat, Eugen, știind ca eu sunt in perioada de internsheep, mă ajuta cu sfaturi utile pentru a avansa mai rapid în domeniu. Apoi el a plecat in Londra pentru 2 luni. Când s-a întors, undeva un jurul zilei de Crăciun noi am ieșit pentru prima data in oraș. Si de atunci s-a început frumoasa noastră poveste de dragoste…</p>
           </div>
           <div class="story-col col-sm-6 xs-hide">
-            <p>The next morning Mallory woke up to find that Matt had left his jacket. How in the world was she supposed to get it back to him? Facebook was the answer. What she didnât know is that Matt had purposely left his jacket at her house, knowing she would find a way to get in contact with him again.</p>
-            <p>Fast Forward to May 16th, 2014, the day before Malloryâs Birthday. Matt had Mallory in the living room of their house and started saying sweet things. Mallory was oblivious to what was going on until Matt got down on one knee. She immediately started to cry tears of joy. Matt pulled the ring out of his pocket, opened the box upside down and asked her to marry him. With eyes filled with tears and snot running down her face, she said âyesâ.</p>
+            <p>Am văzut-o pe Alina pentru prima oară la o sărbătoare a companiei unde lucrez. Ea stătea singurică și nu știa cum să se comporte într-o companie nouă pentru ea. M-am apropiat și i-am propus să nu se rușineze și să guste din bucatele ce erau pe masa de sărbătoare. Aici a și fost un prima întâlnirea în viața noastră.</p>
+            <p>Au urmat zile grele de lucru. Eu din când în când mă apropiam de Alina la servici ca să văd ce mai face și o ajutam cu ceva la moment. Ea este veșnic zâmbitoare ceea ce mă făcut să fiu deschis cu ea, îmi plăcea să o ajut și sa-i dau sfaturi utile.</p>
+            <p>Nu am să uit nici o dată momentul când mergeam spre aeroport și Alina mi-a scris un mesaj cu urare de drum bun. Anume în acel moment am înțeles că între noi e ceva mai mult decât relații colegiale, însă ea nu știa de asta.</p>
+            <p>Am revenit din Londra și peste ceva timp am hotărât să o invit pe Alina la o cafea în oraș. Ea a acceptat. De aici încolo relațiile noastre se dezvoltau în continuu până într-o zi de toamnă. Pe 30 octombrie 2014 eu am cerut-o pe Alina de soție. Sper că ați gâcit răspunsul.</p>
           </div>
           
         </div>
@@ -85,7 +87,7 @@
   </section> 
 
   <div class="behind_image">
-    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/nasii.jpg"/>" />
+    <img id="photo1" class="par-image-wrapper" src="<c:url value="/images/nasii.jpg"/>" style="width: 100%;"/>
   </div>
 
   <section id="wedding-party">
@@ -173,21 +175,13 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="svg-wrapper">
-            <a href="http://m.target.com/gift-registry/giftgiver?registryId=FevAqFYQIIWK4KCnlKHLrw&registryType=WEDDING" target="_blank">
-              <object data="<c:url value="/images/target_logo.svg"/>" type="image/svg+xml">
-
-              </object>
-            </a>
+            
           </div>
         </div>          
 
         <div class="col-sm-6">
           <div class="svg-wrapper">
-            <a href="https://www.anthropologie.com/anthro/wishlist/wishlist.jsp?_DARGS=/anthro/wishlist/gift_list_search_results_vwr.jsp_A&_DAV=gl_PHL3238240633&_dynSessConf=6201208064216873050" target="_blank">
-              <object data="<c:url value="/images/anthro_logo_2.svg"/>" type="image/svg+xml">
-
-              </object>
-            </a>
+           
           </div>
         </div>
       </div>

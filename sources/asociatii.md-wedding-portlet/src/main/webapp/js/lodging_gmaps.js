@@ -1,16 +1,16 @@
 var stop = false;
-$(window).bind("load resize scroll",function(e) {
-  var lodging_details = $('#lodging-details');
+$(window).bind("load resize scroll",function(e) { drop();
+  var lodging_details = $('#lodging-details');/*
   if ((isElementInViewport(lodging_details) == true) && (stop == false) ){
     if (  (typeof google === 'object' && typeof google.maps === 'object')  ){
       drop();
       stop = true;
     }
-  }
+  }*/
 });
 
 var map;
-var center = new google.maps.LatLng(47.035609, 28.869928);
+var center = new google.maps.LatLng(47.035609,28.869928);
 
 var MY_MAPTYPE_ID = 'custom_style';
 
@@ -27,7 +27,7 @@ function initialize() {
 "featureType": "road.local",
 "elementType": "labels.text",
 "stylers": [
-{ "visibility": "off" }
+{ "visibility": "on" }
 ]
 },{
 "featureType": "road.local",
@@ -98,11 +98,10 @@ function initialize() {
 
 
   var mapOptions = {
-    zoom: 15
-    ,
+    zoom: 20,
     center: center,
     scrollwheel: false,
-    draggable: false,
+    draggable: true,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
     },
@@ -126,12 +125,12 @@ var marker = [];
 var iterator = 0;
 
 var lodging_options = [
-  new google.maps.LatLng(47.035609, 28.869928) //Roundhouse
+  new google.maps.LatLng(47.035609,28.869928) //Roundhouse
 ];
 
 var pin_url = [
   '/asociatii.md-wedding-portlet/images/marker1@2x.png'
-]
+];
 
 
 function drop() {
@@ -201,26 +200,26 @@ function mapRedefine(){
   myWidth = window.innerWidth;
   if(myWidth <=767){
     var currCenter = new google.maps.LatLng(47.035609, 28.869928);
-    map.setZoom(14);
+    map.setZoom(15);
   }else if(myWidth = 768){
     var currCenter = new google.maps.LatLng(47.035609, 28.869928);
-    map.setZoom(14);
+    map.setZoom(15);
   }else{
     var currCenter = center;
-    map.setZoom(14);
+    map.setZoom(15);
   }
 
   map.setCenter(currCenter);
 }
 
-function lodging_info_update(marker_name){
+function lodging_info_update(marker_name){/*
   if(marker_name == 'marker2'){
     document.getElementById('marker2').style.display = 'block';
     document.getElementById('marker1').style.display = 'none';
   }else{
     document.getElementById('marker2').style.display = 'none';
     document.getElementById('marker1').style.display = 'block';
-  }
+  }*/
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
